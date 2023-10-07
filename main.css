@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body>header {
+  background-color: #1A120B;
+  padding: 16px 0;
+  color: #ffffff;
+}
+
+
+header li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-weight: bold;
+}
+
+header li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 16px;
+}
+header li a:hover {
+  color: #dddddd;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articles article img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.articles article {
+  width: 30%;
+}
+
+.articles article p,
+.articles article a {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+section {
+  padding: 16px 0;
+}
+
+section h2 {
+  font-size: 32px;
+}
+
+section h2,
+.articles article {
+  margin-bottom: 16px;
+}
+
+.articles article h3 {
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.articles article a {
+  background-color: blue;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  /* Por padrão "a" vem com display inline */
+  text-decoration: none;
+  /* font-weight: bold; */
+  margin-top: 8px;
+}
+
+.articles article a:hover {
+  background-color: #8e8e8a;
+  color: #fff;
+}
+
+/* --------------------SPORTS-------------------- */
+#sports {
+  background-color: rgb(193, 244, 197, 0.5);
+}
+
+#sports .articles article a {
+  background-color: #009432;
+}
+
+#sports .articles article a:hover {
+  background-color: #004225;
+}
+
+/* --------------------ECONOMY-------------------- */
+#economy {
+  background-color: rgba(248, 247, 223, 0.5);
+}
+
+#economy .articles article a {
+  background-color: #FFD93D;
+}
+
+#economy .articles article a:hover {
+  background-color: #9f8623;
+}
+
+/* --------------------Tecnology-------------------- */
+
+#tecnology {
+  background: linear-gradient(0deg, rgba(176, 175, 178, 1) 66%, rgba(251, 251, 239, 1) 100%);
+}
+
+#tecnology .articles article a {
+  background-color: #cacaca;
+  border-radius: 9px;
+}
+
+#tecnology .articles article a:hover {
+  background-color: #4b4b4b;
+}
+
+/* --------------------Entertainment-------------------- */
+
+#entertainment {
+  background: linear-gradient(0deg, rgba(213, 231, 252, 1) 70%, rgba(176, 175, 178, 1) 100%);
+}
+
+#entertainment .articles article a {
+  background-color: #7db0eb;
+  border-radius: 9px;
+}
+
+#entertainment .articles article a:hover {
+  background-color: #3f76b6;
+}
